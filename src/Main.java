@@ -64,7 +64,20 @@ public class Main {
 
             for (int i = 1; i <= 12; i++) {
                 total = total + salary;
-                System.out.println("Накопления " + i + " месяц = " + total);
+                System.out.println("Месяц " + i + ", сумма накоплений равна " + total + " рублей");
+            }
+        }
+
+        System.out.println("\nЗадание 9");
+
+        {
+            int salary = 29000;
+            double total = 0;
+
+            for (int i = 1; i <= 12; i++) {
+                total = total + total / 100;
+                total = total + salary;
+                System.out.printf("\nМесяц " + i + ", сумма накоплений равна  %.2f рублей", total);
             }
         }
     }
