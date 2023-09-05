@@ -80,5 +80,13 @@ public class Main {
                 System.out.printf("\nМесяц " + i + ", сумма накоплений равна  %.2f рублей", total);
             }
         }
+
+        System.out.println("\nЗадание 10");
+
+        for (int i = 2; i < 3; i++) {
+            for (int j = 1; j<= 10; j++) {
+                System.out.println(i + " * " + j + " = " + i * j);
+            }
+        }
     }
 }
