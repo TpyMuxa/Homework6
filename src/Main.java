@@ -15,5 +15,13 @@ public class Main {
                 System.out.println("Переменная i = " + i);
             }
         }
+
+        System.out.println("\nЗадание 3");
+
+        {
+            for (int i = 2; i < 17; i = i + 2) {
+                System.out.println("Четные числа: " + i);
+            }
+        }
     }
 }
