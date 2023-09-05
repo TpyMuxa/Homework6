@@ -47,5 +47,13 @@ public class Main {
                 System.out.print(i + " ");
             }
         }
+
+        System.out.println("\n\nЗадание 7");
+
+        {
+            for (int i = 1; i <= 512; i = i * 2) {
+                System.out.print(i + " ");
+            }
+        }
     }
 }
