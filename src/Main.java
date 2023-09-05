@@ -3,9 +3,17 @@ public class Main {
 
         System.out.println("Задание 1");
 
-        for (int i = 1; i <= 10; i++) {
-            System.out.println("Переменная i = " + i);
+        {
+            for (int i = 1; i <= 10; i++) {
+                System.out.println("Переменная i = " + i);
+            }
         }
+        System.out.println("\nЗадание 2");
 
+        {
+            for (int i = 10; i >= 1; i--) {
+                System.out.println("Переменная i = " + i);
+            }
+        }
     }
 }
