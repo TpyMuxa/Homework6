@@ -23,5 +23,13 @@ public class Main {
                 System.out.println("Четные числа: " + i);
             }
         }
+
+        System.out.println("\nЗадание 4");
+
+        {
+            for (int i = 10; i >= -10; i--) {
+                System.out.println("Переменная i = " + i);
+            }
+        }
     }
 }
