@@ -42,9 +42,9 @@ public class Main {
         System.out.println("\nЗадание 9");
         salary = 29000;
         double sum = 0;
-
         for (int month = 1; month <= 12; month++) {
-            sum = sum + sum / 100;
+            double precent = sum / 100;
+            sum = sum + precent;
             sum = sum + salary;
             System.out.printf("\nМесяц " + month + ", сумма накоплений равна  %.2f рублей", sum);
         }
